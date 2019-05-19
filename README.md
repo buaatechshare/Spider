@@ -1,2 +1,2 @@
-# crawler
-Crawler for article and patent 
+# Spider
+Spider for article and patent 
