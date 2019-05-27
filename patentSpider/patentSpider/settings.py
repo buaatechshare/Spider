@@ -78,6 +78,8 @@ DEFAULT_REQUEST_HEADERS = {
 ITEM_PIPELINES = {
    'patentSpider.pipelines.PatentspiderPipeline': 300,
 }
+#LOG_FILE="PATENT_LOG.TXT"
+#LOG_LEVEL="DEBUG"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -102,3 +104,4 @@ ITEM_PIPELINES = {
 # SPLASH_URL = 'http://118.190.145.138:9001'
 #
 # DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
+DEPTH_LIMIT=8
