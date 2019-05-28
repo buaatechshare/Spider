@@ -104,4 +104,4 @@ ITEM_PIPELINES = {
 # SPLASH_URL = 'http://118.190.145.138:9001'
 #
 # DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
-DEPTH_LIMIT=8
+# DEPTH_LIMIT=8
